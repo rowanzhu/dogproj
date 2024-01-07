@@ -1,0 +1,27 @@
+{
+  "name": "dogproj",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && mkdir dist && npx tsc",
+    "dogsvr": "cd node_modules && rm dogsvr && ln -s ../../dogsvr/node_modules/dogsvr ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowanzhu/dogproj.git"
+  },
+  "author": "rowanzhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rowanzhu/dogproj/issues"
+  },
+  "homepage": "https://github.com/rowanzhu/dogproj#readme",
+  "dependencies": {
+    "dogsvr": "^0.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
